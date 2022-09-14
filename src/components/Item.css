@@ -1,0 +1,44 @@
+.itemCard {
+  width: 15vw;
+  min-width: 150px;
+  margin: 3%;
+  box-sizing: border-box;
+}
+
+.itemCard:hover{
+    box-shadow: 0px 0px 7px 2px gray ;
+}
+
+.itemCard > img {
+  width: 100%;
+}
+
+.itemCard > h4 {
+  margin: 4px;
+}
+
+.itemCard > p {
+  margin: 4px;
+  font-size: 70%;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  height: 15px;
+}
+.rate > span {
+  font-size: 70%;
+  font-weight: 700;
+  margin: 4px;
+}
+
+.rate > strike {
+  margin: 3px 3px;
+  font-size: 60%;
+}
+
+.rate > span:last-child {
+  color: red;
+  opacity: 0.8;
+}

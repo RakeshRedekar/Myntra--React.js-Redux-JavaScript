@@ -1,0 +1,43 @@
+.navbar {
+  border-bottom: 1px solid gray;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-around;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
+  background-color: white;
+}
+
+.navbar > img {
+  height: 100%;
+}
+
+.navOptions > ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  font-size: 8px;
+  column-gap: 20px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+ul > li > sup {
+  font-size: 6px;
+  font-weight: bolder;
+  color: red;
+}
+
+.navSearch > input {
+  height: 12px;
+  font-size: 10px;
+  width: 30vw;
+}
+
+.navSVG > svg {
+  height: 15px;
+}
