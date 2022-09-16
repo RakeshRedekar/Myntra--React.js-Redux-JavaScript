@@ -1,32 +1,31 @@
 .sidebar {
   position: absolute;
-  top: 0px;
+  top: 20px;
   height: 100%;
   width: 15%;
   padding-left: 1%;
   box-sizing: border-box;
-  border-right: 1px solid gray;
 }
 
 div > h4 {
-  font-size: 12px;
+  font-size: 20px;
   margin: 15px 0 8px 0;
 }
 
 .sidebarRadio {
-  font-size: 10px;
-  margin-top: 3px;
+  font-size: 15px;
+  margin-top: 5px;
   display: flex;
   align-items: baseline;
 }
 .sidebarRadio > input {
-  height: 10px;
+  height: 15px;
 }
 
 .sidebarColor {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .sidebarColor > input {
-  height: 10px;
+  height: 15px;
 }

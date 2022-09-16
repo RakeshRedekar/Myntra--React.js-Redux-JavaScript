@@ -1,11 +1,17 @@
 import React from "react";
+import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
+import store from "../store";
 
 function Navbar() {
+  const navigate = useNavigate();
+  const items = useSelector((store) => store.data);
+
   return (
     <nav className="navbar">
-      <img src="src\icon.jpeg" />
       <div className="navOptions">
+        <img src="src\icon.jpeg" />
         <ul>
           <li>MEN</li>
           <li>WOMEN</li>
@@ -20,7 +26,8 @@ function Navbar() {
       <div className="navSearch">
         <input type="text" placeholder="Search items" />
       </div>
-      <div className="navSVG">
+      <div className="navSVG" onClick={() => navigate("cart")}>
+        <span className="svgAttachment">{items.length}</span>
         <svg
           aria-hidden="true"
           focusable="false"

@@ -1,0 +1,18 @@
+.cart{
+    position: absolute;
+    top: 35px;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.cartList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: auto;
+}
+
+.cartTotal > h3 > span{
+    font-weight: 200;
+}

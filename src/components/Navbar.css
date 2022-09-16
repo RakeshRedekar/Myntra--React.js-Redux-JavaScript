@@ -1,6 +1,6 @@
 .navbar {
   border-bottom: 1px solid gray;
-  height: 35px;
+  height: 50px;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -12,32 +12,58 @@
   background-color: white;
 }
 
-.navbar > img {
-  height: 100%;
+.navOptions {
+  display: flex;
+  align-items: center;
+}
+
+.navOptions > img {
+  height: 50px;
 }
 
 .navOptions > ul {
   list-style: none;
+  width: 30vw;
+  min-width: 380px;
   display: flex;
   align-items: baseline;
-  font-size: 8px;
-  column-gap: 20px;
+  font-size: 12px;
+  justify-content: space-between;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
 
 ul > li > sup {
-  font-size: 6px;
+  font-size: 8px;
   font-weight: bolder;
   color: red;
 }
 
 .navSearch > input {
-  height: 12px;
-  font-size: 10px;
+  height: 25px;
+  font-size: 14px;
+  font-weight: 100;
   width: 30vw;
+  background-color: rgb(139, 133, 133, 0.2);
+  border: none;
 }
 
+.navSVG {
+  height: 100%;
+}
 .navSVG > svg {
-  height: 15px;
+  margin-top: 55%;
+  height: 50%;
+}
+
+.svgAttachment {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 30%;
 }

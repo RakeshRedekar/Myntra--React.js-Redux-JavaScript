@@ -2,8 +2,8 @@
     position: absolute;
     top: 2px;
     left: 15%;
-    box-sizing: border-box;
     width: 85%;
     display: flex;
     flex-wrap: wrap;
+    border-left: 1px solid gray;
 }

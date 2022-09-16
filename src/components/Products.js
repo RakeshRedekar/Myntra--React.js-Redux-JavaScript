@@ -8,7 +8,6 @@ import data from "../../data";
 function Products() {
   const [state, setState] = useState([]);
   let condition = useSelector((store) => store);
-  console.log(state[6]);
 
   useEffect(() => setState(data), []);
   return (
