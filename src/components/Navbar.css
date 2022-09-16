@@ -1,7 +1,8 @@
 .navbar {
   border-bottom: 1px solid gray;
-  height: 50px;
+  /* height: 50px; */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   box-sizing: border-box;
   justify-content: space-around;
@@ -24,7 +25,7 @@
 .navOptions > ul {
   list-style: none;
   width: 30vw;
-  min-width: 380px;
+  min-width: 340px;
   display: flex;
   align-items: baseline;
   font-size: 12px;
@@ -49,10 +50,12 @@ ul > li > sup {
 }
 
 .navSVG {
-  height: 100%;
+  height: 50px;
+  width: auto;
+  min-width: 50px;
 }
 .navSVG > svg {
-  margin-top: 55%;
+  margin-top: 35%;
   height: 50%;
 }
 
@@ -62,8 +65,13 @@ ul > li > sup {
   font-size: 12px;
   position: relative;
   bottom: 20px;
-  left: 30px;
+  left: 35px;
   font-weight: bold;
   padding: 2px;
   border-radius: 30%;
 }
+
+/* @media screen and (max-width: 580px) {
+
+  
+} */
