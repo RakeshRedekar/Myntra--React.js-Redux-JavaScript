@@ -6,3 +6,9 @@
   display: flex;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 590px) {
+  .mainBody {
+    top: 100px;
+  }
+}
