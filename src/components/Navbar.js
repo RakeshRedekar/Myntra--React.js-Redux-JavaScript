@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navOptions">
-        <img src="src\icon.jpeg" />
+        <img src="src\icon.jpeg" onClick={()=>navigate('/')}/>
         <ul>
           <li>MEN</li>
           <li>WOMEN</li>

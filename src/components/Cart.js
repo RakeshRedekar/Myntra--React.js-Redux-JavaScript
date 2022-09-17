@@ -34,6 +34,7 @@ function Cart() {
         <h3>
           Final Price : <span>{finalPrice}</span>
         </h3>
+        <button className="buyItems">Buy Items</button>
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 .navbar {
   border-bottom: 1px solid gray;
-  /* height: 50px; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -23,6 +22,7 @@
 }
 
 .navOptions > ul {
+  margin: 0px;
   list-style: none;
   width: 30vw;
   min-width: 340px;
@@ -32,6 +32,18 @@
   justify-content: space-between;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+  height: 45px;
+}
+.navOptions > ul >li{
+  cursor: pointer;
+  line-height: 39px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.navOptions > ul >li:hover{
+  border-bottom: 6px solid red;
+  opacity: 0.6;
 }
 
 ul > li > sup {
@@ -57,6 +69,7 @@ ul > li > sup {
 .navSVG > svg {
   margin-top: 35%;
   height: 50%;
+  cursor: pointer;
 }
 
 .svgAttachment {
