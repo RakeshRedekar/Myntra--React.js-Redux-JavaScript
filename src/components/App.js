@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import "../styles/App.css";
 import Cart from "./Cart";
+import Footer from "./Footer";
 import MainBody from "./MainBody";
 import Navbar from "./Navbar";
 import ProductDetails from "./ProductDetails";
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/:userID" element={<ProductDetails />} />
         <Route path="cart" element={<Cart />} />
       </Routes>
+      <Footer />
     </div>
   );
 };

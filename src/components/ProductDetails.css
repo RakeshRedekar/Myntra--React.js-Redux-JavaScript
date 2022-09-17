@@ -1,17 +1,21 @@
 .productDetails{
-    position: absolute;
-    top: 35px;
-    height: 800px;
+    margin-top: 50px;
+    height: 110%;
     width: 100vw;
     display: flex;
 }
 
+.details {
+    width: 30%;
+
+}
 .imagesDiv{
     display: flex;
     flex-wrap: wrap;
     width: 60%;
     height: auto;
     min-width: 300px;
+    margin-bottom: 30px;
 }
 
 .productTitle{
@@ -66,4 +70,5 @@
     font-size: 15px;
     border: none;
     font-weight: bold;
+    cursor: pointer;
 }
