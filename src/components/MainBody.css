@@ -1,5 +1,6 @@
 .mainBody {
-  margin-top: 50px;
+  background-color: white;
+  margin-top: 30px;
   width: 100vw;
   height: 100%;
   display: flex;

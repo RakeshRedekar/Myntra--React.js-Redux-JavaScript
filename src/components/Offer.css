@@ -1,0 +1,45 @@
+.offer {
+  display: flex;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.offer > h2 {
+  background-color: gray;
+  font-weight: 400;
+  padding: 5px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  text-align: center;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.offerDetails {
+  display: flex;
+}
+
+.OfferDetailText,
+.OfferDetailImage {
+  width: 15vw;
+}
+
+.offerList {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.OfferDetailImage > button {
+  background-color: #ff1493;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 5px;
+}

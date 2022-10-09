@@ -1,0 +1,33 @@
+.sale {
+  display: flex;
+  margin-top: 80px;
+  /* background-color: lightgoldenrodyellow; */
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.sale > img {
+  height: 100%;
+}
+
+.saleTimer > h1 {
+  margin: 5px 0px 5px 0px;
+  color:deeppink;
+}
+
+.saleTimer >h1 >span{
+    font-size: small;
+    color: black;
+    margin-left: 3px;
+}
+
+.saleDate{
+    margin: 0px 60px 0px 0px;
+}
+
+.saleDate > h1{
+    color: brown;
+    margin: 0px;
+}
